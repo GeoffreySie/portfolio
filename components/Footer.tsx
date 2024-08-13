@@ -8,7 +8,7 @@ const Footer = () => {
     <footer className='w-full mb-[100px] md:mb-[50px] pb-10' id='contact'>
         <div className='flex flex-col items-center'>
             <h1 className='heading lg:max-w-[36vw]'>
-                Always <span className='text-purple'>Improving</span>, All Day, Every Day
+                Always <span className='text-purple'>Improving</span>, Always <span className='text-purple'>Doing My Best</span>
             </h1>
             <a href='mailto:contact@siegeoffrey@gmail.com'>
                 <MagicButton 
