@@ -2,7 +2,6 @@
 
 import { cn } from "@/utils/cn";
 import { BackgroundGradientAnimation } from "./background-gradient-animation";
-import { GlobeDemo } from "@/components/ui/GridGlobe";
 import { useState } from "react";
 import animationData from "@/data/confetti.json";
 import Lottie from "react-lottie";
@@ -106,8 +105,6 @@ export const BentoGridItem = ({
         <div className="font-sans font-bold text-lg lg:text-xl">
           {title}
         </div>
-
-        {id===2 && <GlobeDemo/>}
 
         {id===3 && (
           <div className="flex gap-1 lg:gap-5 w-fit absolute -right-3 lg:-right-2 ">

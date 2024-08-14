@@ -1,6 +1,9 @@
+"use client";
+
 import React from 'react'
 import { BentoGrid, BentoGridItem } from './ui/bento-grid'
 import { gridItems } from '@/data'
+
 
 const Grid = () => {
   return (
