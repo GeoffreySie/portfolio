@@ -29,7 +29,6 @@ export default function Home() {
           },
         ]}/>
         <Hero />
-        <Grid />
         <Projects />
         <Education />
         <Experience />
