@@ -11,11 +11,11 @@ const Projects = () => {
             My <span className='text-purple'>Projects</span>
         </h1>
 
-        <div className='flex flex-wrap items-center justify-center p-4 gap-16 mt-10'>
+        <div className='flex flex-wrap items-center justify-center p-4 mt-10 gap-4'>
             {projects.map(({id, title, des, img, iconLists, link}) => (
-                <div key={id} className='lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center sm:w-96 w-[80vw]'>
+                <div key={id} className='lg:h-[40rem] h-[30rem] flex items-center justify-center sm:w-[26rem] w-[80vw]'>
                     <PinContainer title={link} href={link}>
-                        <div className='relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-10'>
+                        <div className='relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-4'>
                             <div className='relative w-full h-full overflow-hidden lg:rounded-3xl bg-[#13162d]'>
                                 <Image 
                                     src='/bg.png' 
@@ -31,13 +31,13 @@ const Projects = () => {
                             />
                             
                         </div>
-                        <h1 className='font-bold md:text-xl text-base line-clamp-1'>
+                        <h1 className='text-gray-200 font-bold md:text-xl line-clamp-1 mb-2'>
                             {title}
                         </h1>
-                        <p className='lg:text-base lg:font-normal font-light text-sm line-clamp-3'>
+                        <p className='text-gray-200 lg:text-base font-light text-sm line-clamp-3'>
                             {des}
                         </p>
-                        <div className='flex items-center justify-between mt-7 mb-3'>
+                        <div className='flex items-center justify-between mt-7'>
                             <div className='flex items-center'>
                                 {iconLists.map((icon, index) => (
                                     <div key={icon} className='border border-white/[0.2] rounded-full bg-black lg:w-10 lg:h-10 w-8 h-8 flex justify-center items-center' style={{transform: `translateX(-${10 * index}px)`}}>      
