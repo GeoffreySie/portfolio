@@ -6,16 +6,16 @@ import { FaLocationArrow } from 'react-icons/fa'
 
 const Projects = () => {
   return (
-    <div className='py-20'>
+    <div className='py-20 flex flex-col justify-center items-center'>
         <h1 className='heading'>
-            My <span className='text-purple'>Projects</span>
+            My Projects
         </h1>
 
-        <div className='flex flex-wrap items-center justify-center p-4 mt-10 gap-4'>
+        <div className='flex flex-wrap items-center justify-center p-4 mt-10 gap-x-32 gap-y-4'>
             {projects.map(({id, title, des, img, iconLists, link}) => (
                 <div key={id} className='lg:h-[40rem] h-[30rem] flex items-center justify-center sm:w-[26rem] w-[80vw]'>
                     <PinContainer title={link} href={link}>
-                        <div className='relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-4'>
+                        <div className='relative flex items-center justify-center sm:w-96 md:w-[30rem] w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-4'>
                             <div className='relative w-full h-full overflow-hidden lg:rounded-3xl bg-[#13162d]'>
                                 <Image 
                                     src='/bg.png' 
@@ -28,6 +28,8 @@ const Projects = () => {
                                 src={img} 
                                 alt={title} 
                                 className='z-10 absolute bottom-0'
+                                width={100}
+                                height={100}
                             />
                             
                         </div>

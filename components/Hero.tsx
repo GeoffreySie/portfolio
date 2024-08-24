@@ -16,7 +16,7 @@ const Hero = () => {
             h-[80vh] w-[50vw]' fill='blue'/>
         </div>
 
-        <div className="h-screen w-full dark:bg-black-100 bg-white  dark:bg-grid-white/[0.06] 
+        <div className="h-screen max-h-[55rem] w-full dark:bg-grid-white/[0.06] 
         bg-grid-black/[0.2] flex items-center justify-center absolute top-0 left-0">
             {/* Radial gradient for the container to give a faded look */}
             <div className="absolute pointer-events-none inset-0 flex items-center justify-center 
@@ -27,7 +27,7 @@ const Hero = () => {
 
         </div>
 
-        <div className = "flex justify-center relative my-20 z-10">
+        <div className = "flex justify-center relative my-20 z-10 pt-20">
             <div className='max-w-[79vw] md:max-w-xl lg:max-w-[50vw] flex flex-col items-center justify-center'>
                 <h2 className = "uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
                     Hello, I&apos;m Geoffrey
