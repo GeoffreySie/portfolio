@@ -8,15 +8,15 @@ const Projects = () => {
   return (
     <div className='py-20 flex flex-col justify-center items-center'>
         <h1 className='heading'>
-            My Projects
+            My <span className='text-cyan-800 dark:text-purple'>Projects</span>
         </h1>
 
-        <div className='flex flex-wrap items-center justify-center p-4 mt-10 gap-x-32 gap-y-4'>
+        <div className='flex flex-wrap items-center justify-center p-4 mt-10 gap-x-4'>
             {projects.map(({id, title, des, img, iconLists, link}) => (
-                <div key={id} className='lg:h-[40rem] h-[30rem] flex items-center justify-center sm:w-[26rem] w-[80vw]'>
+                <div key={id} className='h-full flex items-center justify-center sm:w-[26rem] w-[80vw]'>
                     <PinContainer title={link} href={link}>
-                        <div className='relative flex items-center justify-center sm:w-96 md:w-[30rem] w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-4'>
-                            <div className='relative w-full h-full overflow-hidden lg:rounded-3xl bg-[#13162d]'>
+                        <div className='relative flex items-center justify-center w-80 md:w-96 overflow-hidden h-full mb-4'>
+                            <div className='relative w-full h-full overflow-hidden lg:rounded-3xl bg-gray-300 dark:bg-[#13162d]'>
                                 <Image 
                                     src='/bg.png' 
                                     alt='bg-img'
@@ -33,10 +33,10 @@ const Projects = () => {
                             />
                             
                         </div>
-                        <h1 className='text-gray-200 font-bold md:text-xl line-clamp-1 mb-2'>
+                        <h1 className='text-gray-900 dark:text-gray-100 font-bold md:text-xl line-clamp-1 mb-2'>
                             {title}
                         </h1>
-                        <p className='text-gray-200 lg:text-base font-light text-sm line-clamp-3'>
+                        <p className='text-gray-800 dark:text-blue-100 lg:text-base font-light text-sm line-clamp-3'>
                             {des}
                         </p>
                         <div className='flex items-center justify-between mt-7'>
@@ -53,8 +53,8 @@ const Projects = () => {
                                     </div>
                                 ))}
                             </div>
-                            <div className='flex justify-center items-center'>
-                                <p className='flex md:text-sm text-xs'>Open Github</p>
+                            <div className='flex justify-center items-center pr-4'>
+                                <p className='flex md:text-sm text-xs'>Visit</p>
                                 <FaLocationArrow className='text-purple ms-3'/>
                             </div>
 
