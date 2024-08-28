@@ -37,7 +37,7 @@ const Hero = () => {
 
         </div>
 
-        <div className='w-16 h-full absolute top-10 left-10'>
+        <div className='w-16 h-full fixed top-10 left-10'>
             <ThemeSwitcher />
         </div>
 

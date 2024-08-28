@@ -14,15 +14,15 @@ export const projects = [
     des: "Created a dashboard in Next.js featuring an interactive map using Google Maps API and digital product passport technology to map a hydrogen consignment route across its supply chain.",
     img: "/bg.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    link: "/modularclintonglobal.com",
   },
   {
     id: 2,
-    title: "Team Management Dashboard",
-    des: "Dashboard with user access levels for team management and project tracking, forum for communication and a messaging subsystem developed using Rest APIs with Express.js and Node.js.",
+    title: "Pharma Trace - Polkadot Blockchain App",
+    des: "Dashboard built on the Polkadot substrate network, utilising blockchain technology to track pharmaceutical products across the supply chain.",
     img: "/bg.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    link: "/github.com/GeoffreySie/pharma-trace",
   },
   {
     id: 3,
@@ -30,7 +30,7 @@ export const projects = [
     des: "Android app built with Kotlin that generates a story from a user prompt, leveraging a pre-trained Gemma 7b model pre-trained on HuggingFace.",
     img: "/bg.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    link: "/github.com/GeoffreySie/StoryGenerator",
   },
   {
     id: 4,
@@ -38,7 +38,7 @@ export const projects = [
     des: "Machine learning algorithm predicting Titanic survivors using a dataset from Kaggle, built with Python and Jupyter Notebook.",
     img: "/bg.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    link: "/github.com/GeoffreySie/Kaggle-Titanic",
   },
 ];
 
