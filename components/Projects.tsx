@@ -3,6 +3,7 @@ import { projects } from '@/data/index'
 import { PinContainer } from '@/components/ui/3d-pin'
 import Image from 'next/image'
 import { FaLocationArrow } from 'react-icons/fa'
+import { AnimatedTooltip } from '@/components/ui/animated-tooltip'
 
 const Projects = () => {
   return (
@@ -27,7 +28,7 @@ const Projects = () => {
                             <Image
                                 src={img} 
                                 alt={title} 
-                                className='absolute bottom-0 rounded-3xl items-center justify-center'
+                                className='absolute rounded-3xl items-center justify-center'
                                 width={360}
                                 height={240}
                             />
@@ -39,19 +40,9 @@ const Projects = () => {
                         <p className='text-gray-800 dark:text-blue-100 lg:text-base font-light text-sm line-clamp-3'>
                             {des}
                         </p>
-                        <div className='flex items-center justify-between mt-7'>
-                            <div className='flex items-center'>
-                                {iconLists.map((icon, index) => (
-                                    <div key={icon} className='border border-white/[0.2] rounded-full bg-gray-200 dark:bg-black lg:w-10 lg:h-10 w-8 h-8 flex justify-center items-center' style={{transform: `translateX(-${10 * index}px)`}}>      
-                                        <Image 
-                                            src={icon} 
-                                            alt={icon} 
-                                            width={36}
-                                            height={36}
-                                            className='p-2'
-                                        />
-                                    </div>
-                                ))}
+                        <div className='flex items-center justify-between mt-4'>
+                            <div className='flex flex-row items-center'>
+                                <AnimatedTooltip items={iconLists} />
                             </div>
                             <div className='flex justify-center items-center pr-4'>
                                 <p className='flex md:text-sm text-xs'>Visit</p>
