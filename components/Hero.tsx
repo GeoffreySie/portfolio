@@ -26,7 +26,7 @@ const Hero = () => {
             h-[80vh] w-[50vw] hidden dark:block' fill='blue'/>
         </div>
 
-        <div className="h-screen max-h-[55rem] w-full dark:bg-black-100 bg-gray-100 dark:bg-grid-white/[0.06] 
+        <div className="h-screen max-h-[36rem] md:max-h-[42rem] w-full dark:bg-black-100 bg-gray-100 dark:bg-grid-white/[0.06] 
         bg-grid-black/[0.05] flex items-center justify-center absolute top-0 left-0">
             {/* Radial gradient for the container to give a faded look */}
             <div className="absolute pointer-events-none inset-0 flex items-center justify-center 
@@ -37,7 +37,7 @@ const Hero = () => {
 
         </div>
 
-        <div className='w-16 h-full fixed top-10 left-10'>
+        <div className='w-16 h-full fixed z-50 top-5 left-5 sm:top-10  sm:left-10'>
             <ThemeSwitcher />
         </div>
 

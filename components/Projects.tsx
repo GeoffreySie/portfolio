@@ -12,27 +12,27 @@ const Projects = () => {
             My <span className='text-cyan-800 dark:text-purple'>Projects</span>
         </h1>
 
-        <div className='flex flex-wrap items-center justify-center p-4 mt-10 gap-x-16'>
+        <div className='flex flex-wrap items-center justify-center p-4 mt-10 gap-x-16 gap-y-20 lg:gap-y-4'>
             {projects.map(({id, title, des, img, iconLists, link}) => (
-                <div key={id} className='lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center sm:w-96 w-[80vw]'>
+                <div key={id} className='flex items-center justify-center w-[23rem] sm:w-[25rem] h-[25rem] lg:h-[32.5rem] '>
                     <PinContainer title={link} href={link}>
-                        <div className='relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-4'>
+                        <div className='relative flex items-center justify-center w-[23rem] sm:w-[25rem] h-[15.5rem] lg:h-[17.5rem] mb-4 overflow-hidden'>
                             <div className='relative w-full h-full overflow-hidden lg:rounded-3xl bg-gray-300 dark:bg-[#13162d]'>
                                 <Image 
                                     src='/bg.png' 
                                     alt='bg-img'
-                                    width={240}
-                                    height={120}
+                                    width={400}
+                                    height={280}
+                                    className='w-full h-full object-cover' 
                                 />
                             </div>
                             <Image
                                 src={img} 
                                 alt={title} 
-                                className='absolute rounded-3xl items-center justify-center'
-                                width={360}
-                                height={240}
+                                width={400}
+                                height={280}
+                                className='absolute rounded items-center justify-center object-cover'
                             />
-                            
                         </div>
                         <h1 className='text-gray-900 dark:text-gray-100 font-bold md:text-xl line-clamp-1 mb-2'>
                             {title}

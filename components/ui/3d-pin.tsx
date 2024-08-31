@@ -34,7 +34,7 @@ export const PinContainer = ({
       target="_blank"
       rel="noopener noreferrer"
       className={cn(
-        "relative group/pin z-50 cursor-pointer",
+        "relative group/pin z-40 cursor-pointer",
         containerClassName
       )}
       onMouseEnter={onMouseEnter}
@@ -53,7 +53,7 @@ export const PinContainer = ({
           }}
           className="absolute left-1/2 p-4 top-1/2 flex justify-start items-start rounded-2xl shadow-[0_8px_16px_rgb(0_0_0/0.4)] border border-white/[0.1] group-hover/pin:border-white/[0.2] transition duration-700 overflow-hidden"
         >
-          <div className={cn("relative z-50", className)}>{children}</div>
+          <div className={cn("relative z-40", className)}>{children}</div>
         </div>
       </div>
       <PinPerspective title={title} />
@@ -147,8 +147,8 @@ export const PinPerspective = ({
         <>
           <motion.div className="absolute right-1/2 bottom-1/2 bg-gradient-to-b from-transparent to-cyan-500 translate-y-[14px] w-px h-20 group-hover/pin:h-40 blur-[2px]" />
           <motion.div className="absolute right-1/2 bottom-1/2 bg-gradient-to-b from-transparent to-cyan-500 translate-y-[14px] w-px h-20 group-hover/pin:h-40" />
-          <motion.div className="absolute right-1/2 translate-x-[1.5px] bottom-1/2 bg-cyan-600 translate-y-[14px] w-[4px] h-[4px] rounded-full z-40 blur-[3px]" />
-          <motion.div className="absolute right-1/2 translate-x-[0.5px] bottom-1/2 bg-cyan-300 translate-y-[14px] w-[2px] h-[2px] rounded-full z-40" />
+          <motion.div className="absolute right-1/2 translate-x-[1.5px] bottom-1/2 bg-cyan-600 translate-y-[14px] w-[4px] h-[4px] rounded-full z-30 blur-[3px]" />
+          <motion.div className="absolute right-1/2 translate-x-[0.5px] bottom-1/2 bg-cyan-300 translate-y-[14px] w-[2px] h-[2px] rounded-full z-30" />
         </>
       </div>
     </motion.div>

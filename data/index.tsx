@@ -12,7 +12,7 @@ export const projects = [
     id: 1,
     title: "Hydrogen Supply Chain Dashboard",
     des: "Created a dashboard in Next.js featuring an interactive map using Google Maps API and digital product passport technology to map a hydrogen consignment route across its supply chain.",
-    img: "/bg.png",
+    img: "/MCG.png",
     iconLists: [
       {id:1, name:"Next.js" ,image:"/Next.svg"}, 
       {id:2, name:"Typescript.js" ,image:"/Typescript.svg"},
@@ -28,7 +28,7 @@ export const projects = [
     id: 2,
     title: "Pharma Trace - Polkadot Blockchain App",
     des: "Dashboard built on the Polkadot substrate network, utilising blockchain technology to track pharmaceutical products across the supply chain.",
-    img: "/bg.png",
+    img: "/PharmaTrace.png",
     iconLists: [
       {id:1, name:"Next.js" ,image:"/Next.svg"}, 
       {id:2, name:"Polkadot.js" ,image:"/Polkadot.svg"}, 
@@ -41,7 +41,7 @@ export const projects = [
     id: 3,
     title: "StoryGen - Story Generator Mobile App",
     des: "Android app built with Kotlin that generates a story from a user prompt, leveraging a pre-trained Gemma 7b model pre-trained on HuggingFace.",
-    img: "/bg.png",
+    img: "/StoryGen.png",
     iconLists: [
       {id:1, name:"Kotlin" ,image:"/Kotlin.svg"}, 
       {id:2, name:"Material UI" ,image:"/MaterialUI.svg"},
@@ -53,7 +53,7 @@ export const projects = [
     id: 4,
     title: "ML Algorithm Predicting Titanic Survivors",
     des: "Machine learning algorithm predicting Titanic survivors using a dataset from Kaggle, built with Python and Jupyter Notebook.",
-    img: "/bg.png",
+    img: "/KaggleTitanic.png",
     iconLists: [
       {id:1, name:"Python" ,image:"/Python.svg"}, 
       {id:2, name:"Pandas" ,image:"/Pandas.svg"},
