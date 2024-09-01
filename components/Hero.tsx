@@ -11,7 +11,7 @@ const Hero = () => {
     <div className="py-20 overflow-hidden">
         <div>
             {/* Spotlights for light mode*/}          
-            <Spotlight className='left-52 md:left-80 lg:left-[26rem] xl:left-[32rem] 2xl:left-1/2 top-16 md:top-28 w-[100vw] h-[60vh] sm:w-[90vw] lg:w-[70vw] dark:hidden' fill='cyan'/>
+            <Spotlight className='left-52 md:left-80 lg:left-[26rem] xl:left-[32rem] 2xl:left-1/2 top-16 md:top-28 w-[100vw] h-[60vh] sm:w-[90vw] lg:w-[70vw] dark:hidden' fill='palevioletred'/>
             
 
             {/* Spotlights for dark mode*/}   
@@ -19,7 +19,7 @@ const Hero = () => {
             
         </div>
 
-        <div className="h-screen max-h-[36rem] md:max-h-[38rem] lg:max-h-[42rem] w-full dark:bg-black-100 bg-gray-100 dark:bg-grid-white/[0.06] 
+        <div className="h-screen max-h-[36rem] md:max-h-[38rem] lg:max-h-[40rem] w-full dark:bg-black-100 bg-gray-100 dark:bg-grid-white/[0.06] 
         bg-grid-black/[0.05] flex items-center justify-center absolute top-0 left-0">
             {/* Radial gradient for the container to give a faded look */}
             <div className="absolute pointer-events-none inset-0 flex items-center justify-center 
@@ -50,7 +50,7 @@ const Hero = () => {
                     Currently a Loughborough University student on placement year studying <span className='text-cyan-800 dark:text-purple'>Computer Science and AI</span>
                 </p>
 
-                <Link href="#about">
+                <Link href="#Projects">
                     <MagicButton 
                     title="Show my work"
                     icon={<FaLocationArrow />}

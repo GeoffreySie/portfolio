@@ -22,7 +22,7 @@ export default function RootLayout({
         <NextUIProvider>
           <ThemeProvider
               attribute="class"
-              defaultTheme="dark"
+              defaultTheme="system"
               enableSystem
               disableTransitionOnChange
             >

@@ -6,7 +6,7 @@ import Image from 'next/image'
 
 const Footer = () => {
   return (
-    <footer className='w-full pt-10 md:pt-20 pb-10 md:pb-20' id='contact'>
+    <footer className='w-full pt-10 md:pt-20 pb-10 md:pb-20' id='Contacts'>
         <div className='flex flex-col items-center'>
             <h1 className='heading max-w-[50vw]'>
                 Always <span className='text-cyan-800 dark:text-purple'>Improving</span>, Always <span className='text-cyan-800 dark:text-purple'>Doing My Best</span>

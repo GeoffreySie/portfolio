@@ -1,7 +1,6 @@
 import Hero from "@/components/Hero";
 import { FloatingNav } from "@/components/ui/floating-navbar";
-import Image from "next/image";
-import { FaHome } from "react-icons/fa";
+import { FaHome, FaProjectDiagram, FaBriefcase, FaEnvelope } from 'react-icons/fa';
 import Footer from "@/components/Footer";
 import Projects from "@/components/Projects";
 import Experience from "@/components/Experience";
@@ -19,15 +18,18 @@ export default function Home() {
           },
           {
             name: "Projects",
-            link: "#projects",
+            link: "#Projects",
+            icon: <FaProjectDiagram/>
           },
           {
             name: "Experience",
             link: "#Experience",
+            icon: <FaBriefcase/>
           },
           {
-            name: "Contact",
-            link: "#contact",
+            name: "Contacts",
+            link: "#Contacts",
+            icon: <FaEnvelope/>
           },
         ]}/>
         <Hero />

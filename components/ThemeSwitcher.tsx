@@ -29,18 +29,18 @@ const ThemeSwitcher = () => {
 
   return (
     <Switch
-    checked={theme === "dark"}
-    size="lg"
-    color="warning"
-    onChange={handleThemeChange}
-    thumbIcon={({ isSelected, className }) =>
-      isSelected ? (
-        <SunIcon className={className} />
-      ) : (
-        <MoonIcon className={className} />
-      )
-    }
-    >
+      defaultSelected
+      size="lg"
+      color="warning"
+      onChange={handleThemeChange}
+      thumbIcon={({ isSelected, className }) =>
+        isSelected ? (
+          <SunIcon className={className} />
+        ) : (
+          <MoonIcon className={className} />
+        )
+      }
+      >
     </Switch>
   );
 };
