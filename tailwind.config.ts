@@ -1,5 +1,7 @@
 import type { Config } from "tailwindcss";
 
+const {nextui} = require("@nextui-org/react");
+
 const svgToDataUri = require("mini-svg-data-uri");
 
 const colors = require("tailwindcss/colors");
@@ -15,6 +17,7 @@ const config = {
     "./app/**/*.{ts,tsx}",
     "./src/**/*.{ts,tsx}",
     "./data/**/*.{ts,tsx}",
+    "./node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}",
   ],
   prefix: "",
   theme: {
@@ -40,6 +43,9 @@ const config = {
         },
         blue: {
           "100": "#E4ECFF",
+        },
+        cyan: {
+          "800": "#145A70",
         },
         purple: "#CBACF9",
         border: "hsl(var(--border))",
@@ -163,6 +169,7 @@ const config = {
     },
   },
   plugins: [
+    nextui(),
     require("tailwindcss-animate"),
     addVariablesForColors,
     function ({ matchUtilities, theme }: any) {
