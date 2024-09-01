@@ -18,11 +18,11 @@ const Projects = () => {
             {projects.map(({id, title, des, img, iconLists, link}) => (
                 <div 
                     key={id} 
-                    className='flex items-center justify-center w-[23rem] sm:w-[25rem] h-[25rem] lg:h-[32.5rem] transition-transform duration-300 hover:-translate-y-3' // Added transition classes
+                    className='flex items-center justify-center w-[21rem] sm:w-[25rem] h-[25rem] lg:h-[32.5rem] transition-transform duration-300 hover:-translate-y-3'
                 >
                     <Link href={link} className='cursor-pointer relative'>
                         <div className='p-4 flex flex-col rounded-2xl shadow-[0_8px_16px_rgb(0_0_0/0.4)] bg-neutral-100 dark:bg-gray-900 border border-white/[0.2] overflow-hidden'>
-                            <div className='relative flex items-center justify-center w-[23rem] sm:w-[25rem] h-[15.5rem] lg:h-[17.5rem] mb-4 overflow-hidden'>
+                            <div className='relative flex items-center justify-center w-[20rem] sm:w-[25rem] h-[14rem] sm:h-[15.5rem] lg:h-[17.5rem] mb-4 overflow-hidden'>
                                 <div className='relative w-full h-full overflow-hidden lg:rounded-3xl bg-gray-300 dark:bg-[#13162d]'>
                                     <Image 
                                         src='/bg.png' 
