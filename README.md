@@ -21,4 +21,4 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 ## References
 
 - Certain UI components taken from Aceternity UI
-- Inspiritation from Javascript Mastery
+- Inspiration and some design from Javascript Mastery
