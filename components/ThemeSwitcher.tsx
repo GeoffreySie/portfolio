@@ -20,16 +20,12 @@ const ThemeSwitcher = () => {
   }
 
   const handleThemeChange = () => {
-    if (theme === "light") {
-      setTheme("dark");
-    } else {
-      setTheme("light");
-    }
+    setTheme(theme === "light" ? "dark" : "light");
   };
 
   return (
     <Switch
-      defaultSelected
+      defaultSelected={theme === "light"}
       size="lg"
       color="warning"
       onChange={handleThemeChange}
@@ -40,8 +36,7 @@ const ThemeSwitcher = () => {
           <MoonIcon className={className} />
         )
       }
-      >
-    </Switch>
+    />
   );
 };
 

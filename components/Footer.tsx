@@ -11,7 +11,7 @@ const Footer = () => {
             <h1 className='heading max-w-[50vw]'>
                 Always <span className='text-cyan-800 dark:text-purple'>Improving</span>, Always <span className='text-cyan-800 dark:text-purple'>Doing My Best</span>
             </h1>
-            <a href='mailto:contact@siegeoffrey@gmail.com' className='mt-5 md:mt-0'>
+            <a href='mailto:siegeoffrey@gmail.com' className='mt-5 md:mt-0'>
                 <MagicButton 
                     title='Contact Me' 
                     icon={<FaLocationArrow />} 

@@ -73,7 +73,9 @@ export const experience = [
       return (
         <p>
           Taking what I had learnt for the first two years in university, I aimed to apply my knowledge in a real-world setting through a 
-          year in industry programme. <br/><br/>This allowed me to gain experience in a professional environment, develop my technical skills and 
+          year in industry programme. 
+          <br/><br/>
+          This allowed me to gain experience in a professional environment, develop my technical skills and 
           form meaningful relationships with colleagues at TJX.
         </p>
       );
@@ -87,9 +89,12 @@ export const experience = [
     content: () => {
       return (
         <p>
-          Taking what I had learnt for the first two years in university, I aimed to apply my knowledge in a real-world setting through a 
-          year in industry programme. This allowed me to gain experience in a professional environment, develop my technical skills and 
-          form meaningful relationships with colleagues at TJX.
+          Green energy and sustainability have always been an interest of mine, due to the benefits that it holds for the environment. Thus, I was excited 
+          have the opportunity to work with MCG UK, a company that specialises in green hydrogen supply chain logistics. 
+          <br/><br/>
+          During the internship, I worked with a team of developers to create a dashboard in Next.js featuring an interactive map using 
+          Google Maps API and digital product passport technology to map a hydrogen consignment route across its supply chain. Furthermore, I also gained 
+          experience in Figma to design the user interface of the dashboard.
         </p>
       );
     },
@@ -101,9 +106,8 @@ export const experience = [
     content: () => {
       return (
         <p>
-          Taking what I had learnt for the first two years in university, I aimed to apply my knowledge in a real-world setting through a 
-          year in industry programme. This allowed me to gain experience in a professional environment, develop my technical skills and 
-          form meaningful relationships with colleagues at TJX.
+          In my second year of university, I became a student ambassador for the Computer Science department. This was a meaningful experience where I was able to
+          meet prospective students and share my experiences of studying at Loughborough University, as well as form new relationships with other ambassadors.
         </p>
       );
     },
@@ -115,9 +119,16 @@ export const experience = [
     content: () => {
       return (
         <p>
-          Taking what I had learnt for the first two years in university, I aimed to apply my knowledge in a real-world setting through a 
-          year in industry programme. This allowed me to gain experience in a professional environment, develop my technical skills and 
-          form meaningful relationships with colleagues at TJX.
+          To improve my software engineering skills in high school, I participated in the JP Morgan virtual experience by Forage as recommended by my teacher. 
+          <br/><br/>
+          The experience mainly revolved around fixing broken files in a repository to make a web application output correctly, 
+          and culminated in a final task where I had to use JPMorgan Chase’s open-source library called Perspective to 
+          generate a live graph that displays a data feed in a clear and visually appealing way for traders to monitor.
+          <br/><br/>
+          During the experience, I found it challending to work with new techniques, such as setting up a local dev environment, something I was never taught in school.
+          I had to overcome this by stepping out of my comfort zone and researching new techniques to complete the tasks. 
+        •	
+
         </p>
       );
     },
