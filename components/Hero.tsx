@@ -11,7 +11,7 @@ const Hero = () => {
     <div className="py-20 overflow-hidden">
         <div>
             {/* Spotlights for light mode*/}          
-            <Spotlight className='left-52 md:left-80 lg:left-[26rem] xl:left-[32rem] 2xl:left-1/2 top-16 md:top-28 w-[100vw] h-[60vh] sm:w-[90vw] lg:w-[70vw] dark:hidden' fill='palevioletred'/>
+            <Spotlight className='left-52 md:left-80 lg:left-[26rem] xl:left-[32rem] 2xl:left-1/2 top-16 md:top-28 w-[100vw] h-[60vh] sm:w-[90vw] lg:w-[70vw] hidden sm:block dark:hidden' fill='palevioletred'/>
             
 
             {/* Spotlights for dark mode*/}   
@@ -30,7 +30,7 @@ const Hero = () => {
 
         </div>
 
-        <div className='w-16 h-full fixed z-50 top-5 left-5 sm:top-10  sm:left-10'>
+        <div className='w-16 h-full fixed z-50 top-5 left-5 sm:top-10 sm:left-10'>
             <ThemeSwitcher />
         </div>
 
@@ -40,10 +40,10 @@ const Hero = () => {
                 <h2 className = "uppercase tracking-widest text-xs text-center text-blue-950 dark:text-blue-100 max-w-80">
                     Web and AI Developer
                 </h2>
+
                 <TextGenerateEffect 
                     className='text-center text-[40px] md:text-5xl lg:text-6xl mb-4' 
-                    words='Hello, I&apos;m Geoffrey'>
-
+                    words="Hello, I&apos;m Geoffrey">
                 </TextGenerateEffect>
 
                 <p className = "mb-8 md:mb-0 uppercase tracking-widest text-xs text-center max-w-[40rem] text-blue-950 dark:text-blue-100">
