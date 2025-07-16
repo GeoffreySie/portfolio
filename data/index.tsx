@@ -144,6 +144,11 @@ export const socialMedia = [
     href: "https://github.com/GeoffreySie",
   },
   {
+    id: 2,
+    img: "/LeetCode.svg",
+    href: "https://leetcode.com/u/SieGeoffrey/"
+  },
+  {
     id: 3,
     img: "/LinkedIn.svg",
     href: "https://www.linkedin.com/in/geoffrey-sie/"
