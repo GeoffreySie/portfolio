@@ -5,7 +5,6 @@ import Image from 'next/image'
 import { FaLocationArrow } from 'react-icons/fa'
 import { AnimatedTooltip } from '@/components/ui/animated-tooltip'
 import Link from 'next/link'
-import { Spotlight } from './ui/Spotlight'
 
 const Projects = () => {
   return (

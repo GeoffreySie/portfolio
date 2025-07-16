@@ -1,7 +1,6 @@
 import React from 'react'
 import { TextGenerateEffect } from './ui/text-generate-effect'
 import MagicButton from './ui/MagicButton'
-import { FaLocationArrow } from 'react-icons/fa'
 import ThemeSwitcher from './ThemeSwitcher'
 import Link from 'next/link'
 import { socialMedia } from '@/data'
